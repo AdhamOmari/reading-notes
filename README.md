@@ -1,31 +1,13 @@
 # reading-notes
 
- quotation  
-===============
 
-* you need to embrace the growth mindset. The growth mindset is cool.*
+ Hello every one, my name is Adham Alomari 
+  I have bachelors degree in computer since and this is 
+  my github link : https://github.com/AdhamOmari
 
-*Agrowth mindset the is  things  helps :*
-
-- especially in our work
-- When we’re growing
-- more productive
-
-
-__so we can pull our mind , we need to think out of the box and we need to challenge yourself and get out from comfort zone and you need to change your ways and never quit trying   "no pain, no gain "__
-
-there is three thing always have in my mind :
----------------
-
-1.  there is first time for everything .
-2.  There is no hard solution you just not Know the way yet . 
-3.  keep learning and don't let your confort zone control you 
-
-
-
-![img](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl4AgjDFuumXY0ZnffXEFvNSL_7e2UvWYrAQ&usqp=CAU)
-
- 
-[growth mindset](https://www.atlassian.com/blog/inside-atlassian/growth-mindset)
- 
- :+1\: 
+| page  | URL |
+| --- | --- |
+| `read01` | https://adhamomari.github.io/reading-notes/read01 |
+|`read02`| https://adhamomari.github.io/reading-notes/read02 |
+[read01](read01.md)
+[read02](read02.md)
