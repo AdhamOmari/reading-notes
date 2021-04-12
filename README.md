@@ -27,4 +27,5 @@ there is three thing always have in my mind :
 
  
 [growth mindset](https://www.atlassian.com/blog/inside-atlassian/growth-mindset)
+ 
  :+1\: 
