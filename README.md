@@ -1,6 +1,6 @@
 # reading-notes
 
-** quotation ** :shipit:
+ quotation  
 ===============
 
 * you need to embrace the growth mindset. The growth mindset is cool.*
