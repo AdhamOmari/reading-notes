@@ -1,4 +1,6 @@
+[read01](read01.md)
 [read02](read02.md)
+[read03](read03.md)
 
 *** so in this article the writer try to explain how to Get Started :***
 1. so about (Git) :
