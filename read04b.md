@@ -3,6 +3,8 @@
 -[read03](read03.md)
 -[read04a](read04a.md)
 -[read04b](read04b.md)
+-[read05](read05.md)
+
 
 
 ## how computer works !
