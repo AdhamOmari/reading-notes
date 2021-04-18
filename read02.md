@@ -4,7 +4,10 @@
 -[read04a](read04a.md)
 -[read04b](read04b.md)
 -[read05](read05.md)
+<<<<<<< HEAD
 -[read06](read06.md)
+=======
+>>>>>>> 908f124112cec5bdf82a0c6ec7d4cf20e92b5262
 
 *** so in this article the writer try to explain how to Get Started :***
 1. so about (Git) :
