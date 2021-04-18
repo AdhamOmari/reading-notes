@@ -3,6 +3,8 @@
 -[read03](read03.md)
 -[read04a](read04a.md)
 -[read04b](read04b.md)
+-[read05](read05.md)
+-[read06](read06.md)
 
 *** so in this article the writer try to explain how to Get Started :***
 1. so about (Git) :
