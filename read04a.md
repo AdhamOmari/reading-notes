@@ -5,6 +5,10 @@
 -[read04b](read04b.md)
 -[read05](read05.md)
 -[read06](read06.md)
+-[read07](read07.md)
+=======
+
+>>>>>>> 908f124112cec5bdf82a0c6ec7d4cf20e92b5262
 
 ***first of all 
 the document object is just one of a set of

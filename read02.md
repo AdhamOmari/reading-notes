@@ -5,6 +5,9 @@
 -[read04b](read04b.md)
 -[read05](read05.md)
 -[read06](read06.md)
+-[read07](read07.md)
+=======
+>>>>>>> 908f124112cec5bdf82a0c6ec7d4cf20e92b5262
 
 *** so in this article the writer try to explain how to Get Started :***
 1. so about (Git) :
@@ -28,5 +31,6 @@ what you shuld know the  key concepts :
 
 [Git Tutorial: A Comprehensive Guide
 ](https://blog.udemy.com/git-tutorial-a-comprehensive-guide/#2_1)
+
 ![img](https://blog.udemy.com/wp-content/uploads/2015/08/banner_GIT.jpg)
 
