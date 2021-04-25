@@ -1,5 +1,14 @@
--[read1](https://replit.com/@AdhamOmari/reading-notes-1#README.md)
-
+| page  | URL                  |
+| ---   | ---                  |
+|read01| [read01](read01.md)   |
+|read02|[read02](read02.md)    |
+|read03|[read03](read03.md)    |
+|read04a|[read04a](read04a.md )|
+|read04b|[read04b](read04b.md) |
+|read05|[read05](read05.md)   |
+|read06|[read06](read06.md)   |
+|read07|[read07](read07.md)   |
+=======
 
  
 * you certainly don't have to be a 
