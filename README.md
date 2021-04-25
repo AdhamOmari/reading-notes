@@ -16,11 +16,11 @@
 |read06|[read06](read06.md)   |
 |read07|[read07](read07.md)   |
 =======
-<<<<<<< HEAD
 =======
+## class01
+-[class01](https://replit.com/@AdhamOmari/reading-notes-1#class01.md)
 
 
->>>>>>> 808206a4e370e6c376cc306459f5ba8aeec60f8e
 
 
  ## read201 
