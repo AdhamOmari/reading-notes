@@ -1,4 +1,4 @@
-# reading-notes
+# Code 102 Reading Notes
 
 
  Hello every one, my name is Adham Alomari 
@@ -24,7 +24,8 @@
 
 
 
- ## read201 
+ ## Code 201 Reading Notes
+ 
 | page    | URL                  |
 | ---     | ---                  |
 |read1   |https://replit.com/@AdhamOmari/reading-notes-1#read201/read1.md |
