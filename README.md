@@ -28,4 +28,6 @@
  
 | page    | URL                  |
 | ---     | ---                  |
-|read1   |https://replit.com/@AdhamOmari/reading-notes-1#read201/read1.md |
+|class01   |https://adhamomari.github.io/reading-notes/class01 |
+|class02   |https://adhamomari.github.io/reading-notes/class02)|
+|read03   |https://github.com/AdhamOmari/reading-notes/blob/main/read201/read03.md|
