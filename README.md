@@ -34,5 +34,5 @@
 |read04   |https://github.com/AdhamOmari/reading-notes/blob/main/read201/read04.md|
 |read05   |https://github.com/AdhamOmari/reading-notes/blob/main/read201/read05.md|
 |read06   |https://github.com/AdhamOmari/reading-notes/blob/main/read201/read06.md|
-|read07   |https://github.com/AdhamOmari/reading-notes/blob/main/read201/read06.md|
+|read07   |https://github.com/AdhamOmari/reading-notes/blob/main/read201/read07.md|
 
