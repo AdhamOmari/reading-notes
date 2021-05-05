@@ -36,6 +36,6 @@
 |read06   |https://github.com/AdhamOmari/reading-notes/blob/main/read201/read06.md|
 |read07   |https://github.com/AdhamOmari/reading-notes/blob/main/read201/read07.md|
 |read08   |https://github.com/AdhamOmari/reading-notes/blob/main/read201/read08.md|
-|read09   |https://github.com/AdhamOmari/reading-notes/blob/main/read201/read08.md|
+|read09   |https://github.com/AdhamOmari/reading-notes/blob/main/read201/read09.md|
 
 
