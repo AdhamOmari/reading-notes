@@ -38,5 +38,7 @@
 |read08   |https://github.com/AdhamOmari/reading-notes/blob/main/read201/read08.md|
 |read09   |https://github.com/AdhamOmari/reading-notes/blob/main/read201/read09.md|
 |read10   |https://github.com/AdhamOmari/reading-notes/blob/main/read201/read10.md|
+|read11   |https://github.com/AdhamOmari/reading-notes/blob/main/read201/read11.md|
+
 
 
