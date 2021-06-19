@@ -46,7 +46,11 @@
 
 
 
-
+## Code 301 Reading Notes
+ 
+| page    | URL                  |
+| ---     | ---                  |
+|class01   |https://adhamomari.github.io/reading-notes/class01 |
 
 
 
