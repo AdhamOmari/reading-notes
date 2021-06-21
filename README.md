@@ -52,6 +52,7 @@
 | ---     | ---                  |
 |class01 |read301/read01.md |
 |class1 |read301/class1.md |
+|class2 |read301/class2.md |
 
 
 
