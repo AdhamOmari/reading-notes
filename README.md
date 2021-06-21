@@ -50,7 +50,8 @@
  
 | page    | URL                  |
 | ---     | ---                  |
-|class01   |https://adhamomari.github.io/reading-notes/class01 |
+|class01 |read301/read01.md |
+|class1 |read301/class1.md |
 
 
 
