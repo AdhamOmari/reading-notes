@@ -50,10 +50,10 @@
  
 | page    | URL                  |
 | ---     | ---                  |
-|class01 |read301/read01.md |
-|class1 |read301/class1.md |
-|class2 |read301/class2.md |
-|class3 |read301/class3.md |
+|class01 | https://github.com/AdhamOmari/reading-notes/blob/main/read301/class01.md)](|
+|class1 |[read301/class1.md](https://github.com/AdhamOmari/reading-notes/blob/main/read301/class1.md) |
+|class2 |[read301/class2.md](https://github.com/AdhamOmari/reading-notes/blob/main/read301/class2.md) |
+|class3 |[read301/class3.md](https://github.com/AdhamOmari/reading-notes/blob/main/read301/class3.md) |
 
 
 
