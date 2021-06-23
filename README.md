@@ -55,6 +55,7 @@
 |class2 |https://github.com/AdhamOmari/reading-notes/blob/main/read301/class2|
 |class3 |https://github.com/AdhamOmari/reading-notes/blob/main/read301/class3|
 |Class 04 |https://github.com/AdhamOmari/reading-notes/blob/main/read301/Class04|
+|Class 05 |https://github.com/AdhamOmari/reading-notes/blob/main/read301/Class05|
 
 
 
