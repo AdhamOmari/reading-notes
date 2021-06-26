@@ -56,6 +56,8 @@
 |class3 |https://github.com/AdhamOmari/reading-notes/blob/main/read301/class3.md|
 |Class 04 |https://github.com/AdhamOmari/reading-notes/blob/main/read301/Class04.md|
 |Class 05 |https://github.com/AdhamOmari/reading-notes/blob/main/read301/Class05.md|
+|Class 06 |https://github.com/AdhamOmari/reading-notes/blob/main/read301/Class06.md|
+
 
 
 
