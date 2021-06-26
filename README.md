@@ -50,11 +50,11 @@
  
 | page    | URL                  |
 | ---     | ---                  |
-|read01 |https://github.com/AdhamOmari/reading-notes/blob/main/read301/read01|
-|class1 |https://github.com/AdhamOmari/reading-notes/blob/main/read301/class1|
-|class2 |https://github.com/AdhamOmari/reading-notes/blob/main/read301/class2|
-|class3 |https://github.com/AdhamOmari/reading-notes/blob/main/read301/class3|
-|Class 04 |https://github.com/AdhamOmari/reading-notes/blob/main/read301/Class04|
+|read01 |https://github.com/AdhamOmari/reading-notes/blob/main/read301/read01.md|
+|class1 |https://github.com/AdhamOmari/reading-notes/blob/main/read301/class1.md|
+|class2 |https://github.com/AdhamOmari/reading-notes/blob/main/read301/class2.md|
+|class3 |https://github.com/AdhamOmari/reading-notes/blob/main/read301/class3.md|
+|Class 04 |https://github.com/AdhamOmari/reading-notes/blob/main/read301/Class04.md|
 |Class 05 |https://github.com/AdhamOmari/reading-notes/blob/main/read301/Class05.md|
 
 
