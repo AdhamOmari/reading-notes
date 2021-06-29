@@ -58,6 +58,8 @@
 |Class 05 |[Class05 ](https://adhamomari.github.io/reading-notes/read301/Class05 )|
 |Class 06 |[Class 06 ](https://adhamomari.github.io/reading-notes/read301/Class06 )|
 |Class 07 |[Class 07 ](https://adhamomari.github.io/reading-notes/read301/Class07 )|
+|Class 08 |[Class 08 ](https://adhamomari.github.io/reading-notes/read301/Class08 )|
+
 
 
 
