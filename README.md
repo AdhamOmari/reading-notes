@@ -61,6 +61,7 @@
 |Class 08 |[Class 08 ](https://adhamomari.github.io/reading-notes/read301/Class08 )|
 |Class 09 |[Class 09 ](https://adhamomari.github.io/reading-notes/read301/Class09 )|
 |Class 10 |[Class 10 ](https://adhamomari.github.io/reading-notes/read301/Class10 )|
+|Class 11 |[Class 11 ](https://adhamomari.github.io/reading-notes/read301/Class11 )|
 
 
 
