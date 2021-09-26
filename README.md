@@ -73,6 +73,7 @@
 | page    | URL                  |
 | ---     | ---                  |
 |read 01 |[read 01 ](https://github.com/AdhamOmari/reading-notes/blob/main/Code%20401%20-%20Advanced%20Software%20Development/read01.md)|
+|read 02 |[read 01 ](https://github.com/AdhamOmari/reading-notes/blob/main/Code%20401%20-%20Advanced%20Software%20Development/read02.md)|
 
 
 
