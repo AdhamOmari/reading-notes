@@ -1,0 +1,44 @@
+> Big O: Analysis of Algorithm Efficiency
+
+> “Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity. It is a member of a family of notations invented by Paul Bachmann, Edmund Landau, and others, collectively called Bachmann–Landau notation or asymptotic notation.”
+
+
+> what is Running Time: the amount of time that a movie, performance, recording, etc., lasts from beginning to end.
+
+> The amount of memory resources a function uses to store data and instructions.
+
+
+> 
+> In order to quantify Memory Space, we can consider Four Sources of Memory Usage during function run-time:
+The amount of space needed to hold the code for the algorithm.
+Think of this as the number of bytes required to store the characters for the instructions specified in your function.
+
+> The amount of space needed to hold the input data.
+If direct input data is not considered, we may just refer to this as Additional Memory Space since not all functions have direct input values.
+
+> The amount of space needed for the output data.
+ The amount of space needed to hold working space during the calculation.
+
+> Working Space can be thought of as the creation of variables and reference points as our function performs calculations. This will also include Stack Space of recursive function calls … specifically how memory usage scales relatively with the size of the input.
+
+> Orders of Growth
+
+
+![alt](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/images/OrdersOfGrowth.png)
+
+> Running Time or Memory Space
+
+![alt](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-05/resources/images/ConstantEfficiency.png)
+
+
+
+
+> ---------------------
+
+> what is a linked list java? 
+> Linked List is a part of the Collection framework present in java. ... This class is an implementation of the LinkedList data structure which is a linear data structure where the elements are not stored in contiguous locations and every element is a separate object with a data part and address part.
+
+
+What does it look like
+
+![alt](data:image/png;base64,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)
