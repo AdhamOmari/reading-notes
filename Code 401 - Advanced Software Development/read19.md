@@ -1,75 +1,38 @@
-> Spring and Sockets
-How to complete this guide?
+Real time messaging with websockets
+The WebSocket protocol is one of the ways to make The application handle real-time messages.
 
-create a repo, after that clone int in your machine.
-Create a Web Controller.
-Manual Initialization
-1- Navigate to https://start.spring.io. This service pulls in all the dependencies you need for an application and does most of the setup for you.
+The WebSocket protocol allows you to implement bidirectional communication between applications. It is important to know that HTTP is used only for the initial handshake. After it happens, the HTTP connection is upgraded to a newly opened TCP/IP connection that is used by a WebSocket.
 
-2- Choose either Gradle or Maven and the language you want to use. This guide assumes that you chose Java.
+The WebSocket specification allows using of sub-protocols that operate on a higher, application level. One of them, supported by the Spring Framework, is STOMP.
 
-3- Click Dependencies and select Spring Web, Thymeleaf, and Spring Boot DevTools.
+To build the WebSocket server-side, we will utilize the Spring Boot framework which significantly speeds up the development of standalone and web applications in Java. Spring Boot includes the spring-WebSocket module
 
-4- Click Generate.
-
-5- Download the resulting ZIP file, which is an archive of a web application that is configured with your choices.
-
-
-> To create a “Hello, world” application that sends messages back and forth between a browser and a server:
-Spring Initializr
-1- Navigate to https://start.spring.io. This service pulls in all the dependencies you need for an application and does most of the setup for you.
-
-2- Choose either Gradle or Maven and the language you want to use.
-
-3- Click Dependencies and select Spring Web, Thymeleaf, and Spring Boot DevTools.
-
-4- Click Generate.
-
-5- Download the resulting ZIP file
-
-Adding Dependencies:
-dependencies {
-`implementation 'org.webjars:webjars-locator-core'
+Implementing the WebSocket server-side with Spring Boot:
+First, we should add these Dependencies:
+implementation 'org.webjars:webjars-locator-core'
 implementation 'org.webjars:sockjs-client:1.0.2'
 implementation 'org.webjars:stomp-websocket:2.3.3'
 implementation 'org.webjars:bootstrap:3.3.7'
 implementation 'org.webjars:jquery:3.1.1-1'
-}`
-Create a Resource Representation Class
-The service will accept messages that contain a name in a STOMP message whose body is a JSON object.
 
-Upon receiving the message and extracting the name, the service will process it by creating a greeting and publishing that greeting on a separate queue to which the client is subscribed. The greeting will also be a JSON object.
+Why you should use WebSockets
+WebSockets are designed to supersede the existing bidirectional communication technologies. The existing methods described above are neither reliable nor efficient when it comes to full-duplex real-time communications.
 
-To model the message that carries the name, you can create a plain old Java object with a name property and a corresponding getName() method.
+WebSockets are similar to SSE but also triumph in taking messages back from the client to the server. Connection restrictions are no longer an issue since data is served over a single TCP socket connection.
 
-> how we can build a server?
-> visit the Spring Initializr (Links to an external site.) to generate a new project with the required dependency (Websocket).
-add websocket dependencies .
-Create a Resource Representation Class
-create your STOMP message service
-The service will accept messages that contain a name in a STOMP message whose body is a JSON object.
-To model the message you can create a plain old Java object with a name property and a corresponding getName() method.
-the service will process it by creating a greeting and publishing that greeting on a separate queue to which the client is subscribed.
-The greeting will also be a JSON object
-Spring will use the Jackson JSON library to automatically marshal instances of type Greeting into JSON.
-Create a Message-handling Controller
-STOMP messages can be routed to @Controller classes.
-The @MessageMapping annotation ensures that, if a message is sent to the /hello destination, the greeting() method is called.
-The payload of the message is bound to a HelloMessage object which is passed into greeting().
-the implementation of the method simulates a processing delay by causing the thread to sleep for one second.
-after the client sends a message, the server can take as long as it needs to asynchronously process the message.
-The client can continue with whatever work it needs to do without waiting for the response.
-After the one-second delay, the greeting() method creates a Greeting object and returns it.
-The return value is broadcast to all subscribers of /topic/greetings, as specified in the @SendTo annotation.
-Configure Spring for STOMP messaging
-configure Spring to enable WebSocket and STOMP messaging.
-Create a Java class named WebSocketConfig
-WebSocketConfig is annotated with @Configuration to indicate that it is a Spring configuration class.
-It is also annotated with @EnableWebSocketMessageBroker. As its name suggests, @EnableWebSocketMessageBroker enables WebSocket message handling, backed by a message broker.
-Create a Browser Client
-you can turn your attention to the JavaScript client that will send messages to and receive messages from the server side.
-The connect() function uses SockJS and stomp.js to open a connection
-he sendName() function retrieves the name entered by the user and uses the STOMP client to send
-Make the Application Executable
-Spring Boot creates an application class for you
-You can use it to run this application.
+How to use WebSockets As mentioned in the introduction, the WebSocket protocol has only two agendas. Let’s see how WebSockets fulfills those agendas. To do that, I’m going to spin off a Node.js server and connect it to a client built with React.js.
+
+
+STOMP protocol
+STOMP (simple text orientated messaging protocol) is a sub-protocol much like HTTP. Each time either party sends data, they must send it in the form of a frame. A frame takes a structure like an HTTP request.
+
+It has a verb associated with the intention of the frame (ex. CONNECT, DISCONNECT) like the HTTP methods. It also contains a header to give extra information to the other party and a body to give the main content. As you can see, the design of STOMP is almost identical to the way we send HTTP requests and will be intuitive to use.
+
+Implementing WebSockets in Spring
+Now that you have a good understanding of WebSockets, let’s implement them in Spring. What we are going to build is a simple application that takes messages from users and sends them back to everyone. Each user is going to send messages to an endpoint /app/chat and subscribe to receive messages from /topic/messages.
+
+Every time a user sends a message to /app/chat our server will send the message back to /topic/messages. For simplicity, I will be making a simplistic client using plain HTML and JavaScript. It will be running on its own server separate from our Spring Boot application.
+
+First, we need to create a new Spring Boot project from the Spring initializer (Links to an external site.). The only dependency we will need for now is the spring-boot-starter-websocket dependency. Next, you need to create a configuration class to register our STOMP endpoints and to allow us to use an extra tool called sockjs.
+
+What sockjs does is it allows for backup plans in case the client cannot connect via WebSocket. If this happens it will try to connect using another protocol to try to mimic a WebSocket connection. This is particularly useful if we want to allow the use of older browsers that do not support WebSockets.
