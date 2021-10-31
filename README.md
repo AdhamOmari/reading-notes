@@ -91,5 +91,6 @@
 |read17 |[read17](https://github.com/AdhamOmari/reading-notes/blob/main/Code%20401%20-%20Advanced%20Software%20Development/read17)|
 |read18|[read18](https://github.com/AdhamOmari/reading-notes/blob/main/Code%20401%20-%20Advanced%20Software%20Development/read18)|
 |read19|[read19](https://github.com/AdhamOmari/reading-notes/blob/main/Code%20401%20-%20Advanced%20Software%20Development/read19)|
+|read26|[read26](https://github.com/AdhamOmari/reading-notes/blob/main/Code%20401%20-%20Advanced%20Software%20Development/read26)|
 
 
