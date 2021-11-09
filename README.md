@@ -96,4 +96,4 @@
 |read29|[read29](https://github.com/AdhamOmari/reading-notes/blob/main/Code%20401%20-%20Advanced%20Software%20Development/read29)|
 |Hash Tables|[read30](https://github.com/AdhamOmari/reading-notes/blob/main/Code%20401%20-%20Advanced%20Software%20Development/read30)|
 |Espresso|[read31](https://github.com/AdhamOmari/reading-notes/blob/main/Code%20401%20-%20Advanced%20Software%20Development/read31)|
-
+|read33|[read33](https://github.com/AdhamOmari/reading-notes/blob/main/Code%20401%20-%20Advanced%20Software%20Development/read33)|
