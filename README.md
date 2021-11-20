@@ -101,3 +101,4 @@
 |read37|[read37](https://github.com/AdhamOmari/reading-notes/blob/main/Code%20401%20-%20Advanced%20Software%20Development/read37)|
 |read38|[read38](https://github.com/AdhamOmari/reading-notes/blob/main/Code%20401%20-%20Advanced%20Software%20Development/read38)|
 |read39|[read39](https://github.com/AdhamOmari/reading-notes/blob/main/Code%20401%20-%20Advanced%20Software%20Development/read39)|
+|read41|[read41](https://github.com/AdhamOmari/reading-notes/blob/main/Code%20401%20-%20Advanced%20Software%20Development/read41)|
